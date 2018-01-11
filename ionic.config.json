@@ -1,6 +1,6 @@
 {
   "name": "ionic3-push-example",
-  "app_id": "",
+  "app_id": "b371bc19",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

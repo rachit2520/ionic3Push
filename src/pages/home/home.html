@@ -7,8 +7,16 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <button ion-button item-end icon-left full color="light" (click)="getRegistrationID()">
+    Get RegistrationID
+  </button>
+  <button ion-button item-end icon-left full color="light" (click)="clearStorage()">
+    Clear Storage
+  </button>
+  <button ion-button item-end icon-left full color="light" (click)="increaseBadge()">
+    Increase Badge
+  </button>
+  <button ion-button item-end icon-left full color="light" (click)="clearBadge()">
+    Clear Badge
+  </button>
 </ion-content>
